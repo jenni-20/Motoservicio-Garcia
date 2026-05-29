@@ -5,7 +5,7 @@ export default function Contact() {
         Contacto
       </h1>
 
-      <div className="bg-white rounded-2xl shadow-lg p-8 max-w-xl">
+      <div className="bg-white rounded-2xl shadow-lg p-8 border-t-15 border-blue-900">
 
         <p className="text-black text-lg mb-3">
           📍 Dirección: Carretera internacional  a Oaxaca #26 Col.San miguel 

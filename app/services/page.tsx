@@ -7,33 +7,23 @@ export default function Services() {
 
       <div className="grid md:grid-cols-3 gap-6">
 
-        <div className="bg-white p-6 rounded-2xl shadow-lg">
-          <h2 className="text-black text-2xl font-bold">
-            Cambio de Aceite
-          </h2>
-
-          <p className="text-gray-600 mt-2">
-            Servicio profesional para mantener tu moto en óptimas condiciones.
-          </p>
-        </div>
-
-        <div className="bg-white p-6 rounded-2xl shadow-lg">
+        <div className="bg-white rounded-2xl shadow-lg p-6 border-t-8 border-blue-700 hover:shadow-2xl transition">
           <h2 className="text-black text-2xl font-bold">
             Afinación
           </h2>
 
           <p className="text-gray-600 mt-2">
-            Ajuste completo del rendimiento de la motocicleta.
+            Aqui va algo
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl shadow-lg">
+        <div className="bg-white rounded-2xl shadow-lg p-6 border-t-8 border-blue-800 hover:shadow-2xl transition">
           <h2 className="text-black text-2xl font-bold">
             Reparación General
           </h2>
 
           <p className="text-gray-600 mt-2">
-            Diagnóstico y reparación especializada.
+            Aqui va algo
           </p>
         </div>
 

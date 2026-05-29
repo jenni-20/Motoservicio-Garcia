@@ -6,8 +6,7 @@ export default function Store() {
       </h1>
 
       <p className="text-xl text-gray-700">
-        Aquí podrás encontrar refacciones, accesorios
-        y productos para motocicletas.
+        Aquí se va aponer todo sobre la tienda o lo que se venda como accesorios, refacciones, etc.
       </p>
     </main>
   );
