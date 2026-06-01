@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
 
           <img 
-            src="/logo.png"
+            src="/"
             alt="Logo MotoServicio"
             className="w-40 h-40 object-contain rounded-full bg-white p-1"
           />
@@ -22,18 +22,18 @@ export default function Home() {
 
         </div>
 
-        {/* Menu */}
+        {/* Menu de los servicios  */}
         <ul className="flex gap-8 text-lg text-white">
 
           <Link href="/services">
             <li className="cursor-pointer hover:text-gray-300 transition">
-              Servicios
+              Servicios 
             </li>
           </Link>
 
           <Link href="/store">
             <li className="cursor-pointer hover:text-gray-300 transition">
-              Tienda
+              sss
             </li>
           </Link>
 
@@ -60,10 +60,18 @@ export default function Home() {
       </section>
 
       {/* Ofertas */}
-      <section className="px-10 pb-16">
+      <section className="px-10 -mt-10 pb-16">
         <h3 className="text-black text-3xl font-bold text-center mb-8">
           Ofertas Especiales
         </h3>
+
+        <div className="flex justify-center mb-8">
+          <img
+            src="/ofertas.jpg"
+            alt="Ofertas MotoServicio"
+            className="w-full max-w-4xl rounded-3xl shadow-xl"
+          />
+        </div>
 
         <div className="grid md:grid-cols-3 gap-6">
 
